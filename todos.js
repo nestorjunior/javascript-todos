@@ -9,7 +9,7 @@ function renderTodos(){
 	listElement.innerHTML = '';
 
 	for (todo of todos) {
-		var todoElement = document.createElement('li');
+		var todoElement = document.createElement('li.list-group-item');
 		var todoText = document.createTextNode(todo);
 
 		var linkElement = document.createElement('a');

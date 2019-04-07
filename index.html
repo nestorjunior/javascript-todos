@@ -2,16 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/minty/bootstrap.min.css">
 	<title>Todos</title>
 </head>
 <body>
-	<div id="app">
-		<ul></ul>
 
-		<input type="text" placeholder="Digite um TODO">
-		<button>Adicionar</button>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				
+					<div class="jumbotron">
+					  <h1 class="display-3">TODO List</h1>
+
+						<div id="app">
+						<ul class="list-group">
+						  
+						</ul>
+
+						<input class="form-control-lg" type="text" placeholder="Digite um TODO">
+						<button class="btn btn-primary btn-lg">Add</button>
+						</div>
+					  
+					</div>
+
+			</div>
+		</div>
 	</div>
 	
+	
 	<script src="todos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
